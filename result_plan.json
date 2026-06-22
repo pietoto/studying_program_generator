@@ -1,0 +1,1321 @@
+{
+  "plan_info": {
+    "title": "09.03.03 Прикладная информатика\r\n09.03.03_03 Интеллектуальные инфокоммуникационные технологии",
+    "qualification": "бакалавр",
+    "duration": "4",
+    "year": "2026-2027"
+  },
+  "total_disciplines": 59,
+  "semestrs": {
+    "1": [
+      {
+        "name": "Элективная физическая культура и спорт",
+        "code": "Б1.О.1.07",
+        "credits": 2.3,
+        "hours": 82.0,
+        "total_credits": 0.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Творческие семестры",
+        "code": "ФТД.В.01",
+        "credits": 1.0,
+        "hours": 36.0,
+        "total_credits": 1.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      },
+      {
+        "name": "Факультатив по информатике",
+        "code": "ФТД.В.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      },
+      {
+        "name": "Факультатив по математике",
+        "code": "ФТД.В.03",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      },
+      {
+        "name": "Дополнительные главы программирования",
+        "code": "Б1.О.3.07.04",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Русский язык как иностранный",
+        "code": "ФТД.В.05",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      },
+      {
+        "name": "Экономическая культура",
+        "code": "Б1.О.1.03",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Основы российской государственности",
+        "code": "Б1.О.1.08",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Базовый курс",
+        "code": "Б1.О.1.ДВ.01.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Русский язык как иностранный",
+        "code": "Б1.О.1.ДВ.01.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Введение в профессиональную деятельность",
+        "code": "Б1.О.3.01",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Основы цифровых технологий",
+        "code": "Б1.О.1.09.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Высшая математика",
+        "code": "Б1.О.2.01",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 16.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Физика",
+        "code": "Б1.О.2.02",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Алгоритмизация и программирование",
+        "code": "Б1.О.2.03",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Факультатив по физике",
+        "code": "ФТД.В.04",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      }
+    ],
+    "2": [
+      {
+        "name": "Философия",
+        "code": "Б1.О.1.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Элективная физическая культура и спорт",
+        "code": "Б1.О.1.07",
+        "credits": 2.3,
+        "hours": 82.0,
+        "total_credits": 0.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Дополнительные главы программирования",
+        "code": "Б1.О.3.07.04",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Физическая культура",
+        "code": "Б1.О.1.06",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "История России",
+        "code": "Б1.О.1.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Базовый курс",
+        "code": "Б1.О.1.ДВ.01.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Русский язык как иностранный",
+        "code": "Б1.О.1.ДВ.01.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Дискретная математика",
+        "code": "Б1.О.3.06.02",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Высшая математика",
+        "code": "Б1.О.2.01",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 16.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Физика",
+        "code": "Б1.О.2.02",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Структуры данных",
+        "code": "Б1.О.2.04",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Основы методологии научных исследований",
+        "code": "ФТД.В.06",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 4.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      }
+    ],
+    "3": [
+      {
+        "name": "Элективная физическая культура и спорт",
+        "code": "Б1.О.1.07",
+        "credits": 2.3,
+        "hours": 82.0,
+        "total_credits": 0.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Безопасность жизнедеятельности",
+        "code": "Б1.О.1.04",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Операционные системы",
+        "code": "Б1.О.3.07.02",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Функциональный анализ",
+        "code": "Б1.О.3.04",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Функциональное программирование",
+        "code": "Б1.О.3.07.ДВ.01.02",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Технология объектно-ориентированного программирования",
+        "code": "Б1.О.3.07.ДВ.01.01",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Вычислительная математика",
+        "code": "Б1.О.3.05",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 7.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "История России",
+        "code": "Б1.О.1.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Базовый курс",
+        "code": "Б1.О.1.ДВ.01.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Русский язык как иностранный",
+        "code": "Б1.О.1.ДВ.01.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Высшая математика",
+        "code": "Б1.О.2.01",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 16.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336513"
+      },
+      {
+        "name": "Онлайн-мастерская надпрофессиональных компетенций",
+        "code": "Б1.О.1.ДВ.02.01",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Офлайн-мастерская надпрофессиональных компетенций",
+        "code": "Б1.О.1.ДВ.02.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Основы методологии научных исследований",
+        "code": "ФТД.В.06",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 4.0,
+        "is_facultative": true,
+        "type": "2",
+        "block": "336512"
+      }
+    ],
+    "4": [
+      {
+        "name": "Основы проектной деятельности",
+        "code": "Б1.О.1.05",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Элективная физическая культура и спорт",
+        "code": "Б1.О.1.07",
+        "credits": 2.3,
+        "hours": 82.0,
+        "total_credits": 0.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      },
+      {
+        "name": "Иностранный язык: Профессионально-ориентированный курс",
+        "code": "Б1.О.3.02",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Базы данных",
+        "code": "Б1.О.3.07.01",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Структуры и алгоритмы обработки данных",
+        "code": "Б1.О.3.06.01",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Ознакомительная практика",
+        "code": "Б2.О.01(У)",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "3",
+        "block": "336508"
+      },
+      {
+        "name": "Вычислительная математика",
+        "code": "Б1.О.3.05",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 7.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Методы тестирования программного обеспечения",
+        "code": "Б1.В.1.04",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Технологическое лидерство",
+        "code": "Б1.О.1.09.02",
+        "credits": 2.0,
+        "hours": 72.0,
+        "total_credits": 2.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336505"
+      }
+    ],
+    "5": [
+      {
+        "name": "Образовательный форсайт",
+        "code": "Б1.В.2.ДВ.01.01",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336515"
+      },
+      {
+        "name": "Карьерная адаптивность",
+        "code": "Б1.В.2.ДВ.01.02",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336515"
+      },
+      {
+        "name": "Администрирование информационных систем",
+        "code": "Б1.В.1.01",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 8.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Теория вероятностей и математическая статистика",
+        "code": "Б1.О.3.03",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 7.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Архитектура вычислительных систем",
+        "code": "Б1.О.3.07.03",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Программирование баз данных",
+        "code": "Б1.В.1.02.01",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Проектная деятельность бакалавра",
+        "code": "Б1.В.1.03",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Верстка и прототипирование сайтов",
+        "code": "Б1.В.1.02.02",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      }
+    ],
+    "6": [
+      {
+        "name": "Образовательный форсайт",
+        "code": "Б1.В.2.ДВ.01.01",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336515"
+      },
+      {
+        "name": "Карьерная адаптивность",
+        "code": "Б1.В.2.ДВ.01.02",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336515"
+      },
+      {
+        "name": "Администрирование информационных систем",
+        "code": "Б1.В.1.01",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 8.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Теория вероятностей и математическая статистика",
+        "code": "Б1.О.3.03",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 7.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Архитектура вычислительных систем",
+        "code": "Б1.О.3.07.03",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336514"
+      },
+      {
+        "name": "Технологии разработки программного обеспечения",
+        "code": "Б1.В.1.02.03",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 4.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Технологии веб-разработки",
+        "code": "Б1.В.1.02.ДВ.01.02",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Программирование веб-приложений",
+        "code": "Б1.В.1.02.ДВ.01.01",
+        "credits": 4.0,
+        "hours": 144.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Технологическая (проектно-технологическая) практика",
+        "code": "Б2.В.01(П)",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "3",
+        "block": "336509"
+      },
+      {
+        "name": "Теория автоматов и формальных языков",
+        "code": "Б1.В.1.05",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      }
+    ],
+    "7": [
+      {
+        "name": "Программирование систем с AI",
+        "code": "Б1.В.1.02.04",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Разработка пользовательских интерфейсов",
+        "code": "Б1.В.1.02.05",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Информационная безопасность",
+        "code": "Б1.В.1.02.06",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Интеллектуальный анализ данных",
+        "code": "Б1.В.1.02.08",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Технологии веб-разработки",
+        "code": "Б1.В.1.02.ДВ.01.02",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Программирование веб-приложений",
+        "code": "Б1.В.1.02.ДВ.01.01",
+        "credits": 6.0,
+        "hours": 216.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Научно-исследовательская работа",
+        "code": "Б2.В.02(П)",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "3",
+        "block": "336509"
+      }
+    ],
+    "8": [
+      {
+        "name": "Архитектура распределенных систем",
+        "code": "Б1.В.1.02.07",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Интеллектуальный анализ данных",
+        "code": "Б1.В.1.02.08",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 10.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Научно-исследовательская работа",
+        "code": "Б2.В.02(П)",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 6.0,
+        "is_facultative": false,
+        "type": "3",
+        "block": "336509"
+      },
+      {
+        "name": "Проектирование информационных систем",
+        "code": "Б1.В.1.02.09",
+        "credits": 5.0,
+        "hours": 180.0,
+        "total_credits": 5.0,
+        "is_facultative": false,
+        "type": "2",
+        "block": "336506"
+      },
+      {
+        "name": "Выполнение и защита выпускной квалификационной работы",
+        "code": "Б3.01(Д)",
+        "credits": 9.0,
+        "hours": 324.0,
+        "total_credits": 9.0,
+        "is_facultative": false,
+        "type": "6",
+        "block": "336510"
+      },
+      {
+        "name": "Преддипломная практика",
+        "code": "Б2.В.03(Пд)",
+        "credits": 3.0,
+        "hours": 108.0,
+        "total_credits": 3.0,
+        "is_facultative": false,
+        "type": "3",
+        "block": "336509"
+      }
+    ]
+  },
+  "all_disciplines": {
+    "2180498": {
+      "name": "Основы проектной деятельности",
+      "code": "Б1.О.1.05",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180500": {
+      "name": "Образовательный форсайт",
+      "code": "Б1.В.2.ДВ.01.01",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336515",
+      "is_facultative": false
+    },
+    "2180501": {
+      "name": "Карьерная адаптивность",
+      "code": "Б1.В.2.ДВ.01.02",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336515",
+      "is_facultative": false
+    },
+    "2180502": {
+      "name": "Философия",
+      "code": "Б1.О.1.02",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180503": {
+      "name": "История России",
+      "code": "Б1.О.1.01",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180504": {
+      "name": "Основы российской государственности",
+      "code": "Б1.О.1.08",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180505": {
+      "name": "Безопасность жизнедеятельности",
+      "code": "Б1.О.1.04",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180506": {
+      "name": "Русский язык как иностранный",
+      "code": "ФТД.В.05",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    },
+    "2180512": {
+      "name": "Программирование систем с AI",
+      "code": "Б1.В.1.02.04",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180513": {
+      "name": "Технологическая (проектно-технологическая) практика",
+      "code": "Б2.В.01(П)",
+      "total_credits": 6.0,
+      "type": "3",
+      "block": "336509",
+      "is_facultative": false
+    },
+    "2180514": {
+      "name": "Ознакомительная практика",
+      "code": "Б2.О.01(У)",
+      "total_credits": 6.0,
+      "type": "3",
+      "block": "336508",
+      "is_facultative": false
+    },
+    "2180515": {
+      "name": "Научно-исследовательская работа",
+      "code": "Б2.В.02(П)",
+      "total_credits": 6.0,
+      "type": "3",
+      "block": "336509",
+      "is_facultative": false
+    },
+    "2180516": {
+      "name": "Теория вероятностей и математическая статистика",
+      "code": "Б1.О.3.03",
+      "total_credits": 7.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180517": {
+      "name": "Операционные системы",
+      "code": "Б1.О.3.07.02",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180518": {
+      "name": "Администрирование информационных систем",
+      "code": "Б1.В.1.01",
+      "total_credits": 8.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180519": {
+      "name": "Архитектура распределенных систем",
+      "code": "Б1.В.1.02.07",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180520": {
+      "name": "Разработка пользовательских интерфейсов",
+      "code": "Б1.В.1.02.05",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180521": {
+      "name": "Информационная безопасность",
+      "code": "Б1.В.1.02.06",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180522": {
+      "name": "Интеллектуальный анализ данных",
+      "code": "Б1.В.1.02.08",
+      "total_credits": 10.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180523": {
+      "name": "Дополнительные главы программирования",
+      "code": "Б1.О.3.07.04",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180524": {
+      "name": "Технологии разработки программного обеспечения",
+      "code": "Б1.В.1.02.03",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180525": {
+      "name": "Программирование веб-приложений",
+      "code": "Б1.В.1.02.ДВ.01.01",
+      "total_credits": 10.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180526": {
+      "name": "Технологии веб-разработки",
+      "code": "Б1.В.1.02.ДВ.01.02",
+      "total_credits": 10.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180527": {
+      "name": "Проектная деятельность бакалавра",
+      "code": "Б1.В.1.03",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180528": {
+      "name": "Функциональный анализ",
+      "code": "Б1.О.3.04",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180529": {
+      "name": "Факультатив по физике",
+      "code": "ФТД.В.04",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    },
+    "2180531": {
+      "name": "Основы цифровых технологий",
+      "code": "Б1.О.1.09.01",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180532": {
+      "name": "Технологическое лидерство",
+      "code": "Б1.О.1.09.02",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180534": {
+      "name": "Онлайн-мастерская надпрофессиональных компетенций",
+      "code": "Б1.О.1.ДВ.02.01",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180535": {
+      "name": "Офлайн-мастерская надпрофессиональных компетенций",
+      "code": "Б1.О.1.ДВ.02.02",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180536": {
+      "name": "Высшая математика",
+      "code": "Б1.О.2.01",
+      "total_credits": 16.0,
+      "type": "2",
+      "block": "336513",
+      "is_facultative": false
+    },
+    "2180537": {
+      "name": "Физика",
+      "code": "Б1.О.2.02",
+      "total_credits": 10.0,
+      "type": "2",
+      "block": "336513",
+      "is_facultative": false
+    },
+    "2180538": {
+      "name": "Структуры данных",
+      "code": "Б1.О.2.04",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336513",
+      "is_facultative": false
+    },
+    "2180539": {
+      "name": "Алгоритмизация и программирование",
+      "code": "Б1.О.2.03",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336513",
+      "is_facultative": false
+    },
+    "2180540": {
+      "name": "Проектирование информационных систем",
+      "code": "Б1.В.1.02.09",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180541": {
+      "name": "Верстка и прототипирование сайтов",
+      "code": "Б1.В.1.02.02",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180542": {
+      "name": "Технология объектно-ориентированного программирования",
+      "code": "Б1.О.3.07.ДВ.01.01",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180543": {
+      "name": "Выполнение и защита выпускной квалификационной работы",
+      "code": "Б3.01(Д)",
+      "total_credits": 9.0,
+      "type": "6",
+      "block": "336510",
+      "is_facultative": false
+    },
+    "2180544": {
+      "name": "Преддипломная практика",
+      "code": "Б2.В.03(Пд)",
+      "total_credits": 3.0,
+      "type": "3",
+      "block": "336509",
+      "is_facultative": false
+    },
+    "2180545": {
+      "name": "Введение в профессиональную деятельность",
+      "code": "Б1.О.3.01",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180546": {
+      "name": "Дискретная математика",
+      "code": "Б1.О.3.06.02",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180547": {
+      "name": "Структуры и алгоритмы обработки данных",
+      "code": "Б1.О.3.06.01",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180548": {
+      "name": "Архитектура вычислительных систем",
+      "code": "Б1.О.3.07.03",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180549": {
+      "name": "Иностранный язык: Русский язык как иностранный",
+      "code": "Б1.О.1.ДВ.01.02",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180550": {
+      "name": "Элективная физическая культура и спорт",
+      "code": "Б1.О.1.07",
+      "total_credits": 0.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180551": {
+      "name": "Физическая культура",
+      "code": "Б1.О.1.06",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180552": {
+      "name": "Творческие семестры",
+      "code": "ФТД.В.01",
+      "total_credits": 1.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    },
+    "2180553": {
+      "name": "Иностранный язык: Базовый курс",
+      "code": "Б1.О.1.ДВ.01.01",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180554": {
+      "name": "Иностранный язык: Профессионально-ориентированный курс",
+      "code": "Б1.О.3.02",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180555": {
+      "name": "Экономическая культура",
+      "code": "Б1.О.1.03",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336505",
+      "is_facultative": false
+    },
+    "2180556": {
+      "name": "Функциональное программирование",
+      "code": "Б1.О.3.07.ДВ.01.02",
+      "total_credits": 6.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180557": {
+      "name": "Вычислительная математика",
+      "code": "Б1.О.3.05",
+      "total_credits": 7.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180558": {
+      "name": "Базы данных",
+      "code": "Б1.О.3.07.01",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336514",
+      "is_facultative": false
+    },
+    "2180559": {
+      "name": "Программирование баз данных",
+      "code": "Б1.В.1.02.01",
+      "total_credits": 5.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180560": {
+      "name": "Методы тестирования программного обеспечения",
+      "code": "Б1.В.1.04",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180561": {
+      "name": "Теория автоматов и формальных языков",
+      "code": "Б1.В.1.05",
+      "total_credits": 3.0,
+      "type": "2",
+      "block": "336506",
+      "is_facultative": false
+    },
+    "2180562": {
+      "name": "Факультатив по информатике",
+      "code": "ФТД.В.02",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    },
+    "2180563": {
+      "name": "Факультатив по математике",
+      "code": "ФТД.В.03",
+      "total_credits": 2.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    },
+    "2200638": {
+      "name": "Основы методологии научных исследований",
+      "code": "ФТД.В.06",
+      "total_credits": 4.0,
+      "type": "2",
+      "block": "336512",
+      "is_facultative": true
+    }
+  }
+}
