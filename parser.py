@@ -8,7 +8,7 @@ import json
 from collections import defaultdict
 
 # загружаем XML-файл (указываем путь к файлу)
-file_path = 'plan.xml'
+file_path = 'b09.03.03_03_ИКНК_2026.plx'
 # попытка выгрузить данные из файла
 try:
     tree = ET.parse(file_path)
@@ -60,19 +60,23 @@ for item in root.findall('.//ds:ПланыСтроки', namespaces=ns):
         object_type = item.get('ТипОбъекта', '')
         # имеет смысл рассматривать обязательные дисциплины, практику и ГИА
         if object_type in ['2', '3', '6']:
+            # задаём флаг для дисциплин, которые считаются без ЗЕТ
+            count_without_zet = item.get('СчитатьБезЗЕТ', 'false') == 'true'
             # name - название дисциплины
             # code - код дисциплины
             # total_credits - общая трудоёмкость в зет
             # type - тип объекта (2 - дисциплина, 3 - практика, 6 - ГИА)
             # block - код блока
             # is_facultative - факультативный ли предмет
+            # count_without_zet - проверяем, считается ли дисциплина без зетов
             disciplines[code] = {
                 "name": item.get('Дисциплина', ''),
                 "code": item.get('ДисциплинаКод', ''),
                 "total_credits": float(item.get('ТрудоемкостьКредитов', '0')),
                 "type": object_type,
                 "block": item.get('КодБлока', ''),
-                "is_facultative": item.get('Факультатив', 'false') == 'true'
+                "is_facultative": item.get('Факультатив', 'false') == 'true',
+                "count_without_zet": count_without_zet
             }
 print(f"Было найдено: {len(disciplines)} дисциплин")
 
@@ -121,6 +125,77 @@ print(f"Найдено записей с часами по семестрам: {
 def get_real_semestr(kurs, sem_in_course):
     return (kurs - 1) * 2 + sem_in_course
 
+# группируем дисциплины по родительскому коду
+dv_groups = defaultdict(list)
+for code, disc in disciplines.items():
+    disc_code = disc.get('code', '')
+    # проверка есть ли в коде предмета .ДВ. (т.е. дисциплина по выбору)
+    if '.ДВ.' in disc_code:
+        # извлекаем родительский код (всё до последнего .xx)
+        parent_code = '.'.join(disc_code.split('.')[:-1])
+        dv_groups[parent_code].append(code)
+
+# создаём словарь для замены старого кода на новый
+merge_map = {}
+
+for parent_code, codes_to_merge in dv_groups.items():
+    if len(codes_to_merge) > 1:
+        # берём первую дисциплину за основу
+        base_code = codes_to_merge[0]
+        base_disc = disciplines[base_code]
+
+        # собираем название всех дисциплин в группе
+        names = [disciplines[code]['name'] for code in codes_to_merge]
+        merged_name = ' / '.join(names)
+
+        # создаём новую объединённую дисциплину
+        merged_disc = {
+            "name": merged_name,
+            "code": parent_code, # родительский код без .xx на конце
+            "total_credits": base_disc['total_credits'],
+            "type": base_disc['type'],
+            "block": base_disc['block'],
+            "is_facultative": base_disc['is_facultative'],
+            "is_dv": True,
+            "dv_children": codes_to_merge # сохраняем исходные коды
+
+        }
+        # заменяем первую дисциплину на объединённую
+        disciplines[base_code] = merged_disc
+
+        # удаляем остальные дисциплины из словаря
+        for code in codes_to_merge[1:]:
+            del disciplines[code]
+
+        # запоминаем, что нужно объяснить в семестрах
+        for code in codes_to_merge[1:]:
+            merge_map[code] = base_code
+
+print(f"Было объединено {len(dv_groups)} групп дисциплин по выбору")
+
+
+# создаём словарь для часов с объединёнными дисциплинами
+new_semestr_hours = defaultdict(list)
+for obj_code, hours_list in semestr_hours.items():
+    # если код был объединён, то используем новый код
+    new_code = merge_map.get(obj_code, obj_code)
+    # проверяем, что новый код существует в дисциплинах
+    if new_code in disciplines:
+        # добавляем часы в новый словарь
+        for h in hours_list:
+            # проверяем, не добавлены ли они были ранее
+            exists = False
+            for item in new_semestr_hours[new_code]:
+                if item['kurs'] == h['kurs'] and item['semestr'] == h['semestr']:
+                    exists = True
+                    break
+            if not exists:
+                new_semestr_hours[new_code].append(h)
+
+semestr_hours = new_semestr_hours
+# обновляем total_pairs
+total_pairs = sum(len(v) for v in semestr_hours.values())
+print(f"Найдено записей с часами по семестрам после объединения: {total_pairs}")
 # формируем структуру по семестрам
 # ключ - реальный номер семестра, значение - список дисциплин в этом семестре
 semestrs = defaultdict(list)
@@ -132,8 +207,12 @@ for object_code, hours_list in semestr_hours.items():
         for h in hours_list:
             # вычисляем реальный номер семестра (1-8 для бакалавриата)
             real_semestr = get_real_semestr(h['kurs'], h['semestr'])
-            # вычисляем количество зет в текущем семестре (округляем до 1 знака после запятой)
-            credits_in_semestr = round(h['hours'] / 36, 1)
+            # если в дисциплине нет зетов, то credits = 0
+            if disc.get('count_without_zet', False):
+                credits_in_semestr = 0.0
+            else:
+                # вычисляем количество зет в текущем семестре (округляем до 1 знака после запятой)
+                credits_in_semestr = round(h['hours'] / 36, 1)
 
             # проверяем не добавлена ли текущая дисцпиплина ранее в этот семестр
             exists = False
@@ -173,7 +252,7 @@ result = {
     "all_disciplines": disciplines
 }
 # адрес итогового json-файла
-output_file = 'result_plan.json'
+output_file = 'result_parsinig_plan.json'
 
 # заполняем созданный файл
 with open(output_file, 'w', encoding='utf-8') as f:
